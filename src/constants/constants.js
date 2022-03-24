@@ -13,8 +13,8 @@ export const projects = [
     description: "A simple web app, with CRUD functionality, using Mongoose, ExpressJS server, EJS templating language, PassportJS authentication middleware, Joi JS, Cloudinary for content management, hosted on Heroku.",
       image: '/images/yelpcamp.png',
       tags: ['JavaScript', 'NodeJS', 'MongoDB', 'Heroku'],
-    source: 'https://github.com/sentinel-sam/samshare_frontend',
-    visit: 'https://samshare.netlify.app/',
+    source: 'https://github.com/sentinel-sam/yelpcamp',
+    visit: 'http://calm-headland-65887.herokuapp.com/',
     id: 0,
   },
   {
