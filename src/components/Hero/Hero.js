@@ -9,17 +9,19 @@ const Hero = () => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hi,I'm Samson Odiase <br />
-          A Fullstack Developer
+          Hi, <br />
+          I'm Samson<br /> <br />
+          A MERN stack Developer.
         </SectionTitle>
         <SectionText>
-          I'm enthusiastic about web technologies, and commited to building beautiful, scalable web applications with current web technologies
+          As a fullstack developer, I build beautiful, scalable web applications with Javascript and its frameworks.
+          I love coding and I'm interested in building amazing web applications with great User Interface and User Experience...
         </SectionText>
         {/* <Button onClick={props.handleClick}>Contact Me</Button> 
           removed props as argument to hero component
           fix the window.location below for emailjs
         */}
-        <Button onClick={() => window.location = '#about'}>Contact Me</Button>
+        <Button onClick={() => window.location = '#footer'}>Contact Me</Button>
       </LeftSection>
     </Section>
   </>

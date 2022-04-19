@@ -5,11 +5,11 @@ import { DiAtom } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white", marginBottom:'20px' }}>
+        <a style={{ display: 'flex', alignItems: 'center', color: "white", marginBottom: '20px' }}>
           <DiAtom size="3rem" /> <Span>Sameo Tech</Span>
         </a>
       </Link>
@@ -24,25 +24,20 @@ const Header = () =>  (
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>        
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>        
+      </li>
     </Div2>
-      <Div3>
-        <SocialIcons href="https://github.com/sentinel-sam">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/odiase-samson">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://twitter.com/sentinel__sam">
-          <AiOutlineTwitter size="3rem"/>
-        </SocialIcons>
-      </Div3>
-    </Container>
+    <Div3>
+      <SocialIcons href="https://github.com/sentinel-sam">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/odiase-samson">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://twitter.com/sentinel__sam">
+        <AiOutlineTwitter size="3rem" />
+      </SocialIcons>
+    </Div3>
+  </Container>
 );
 
 export default Header;

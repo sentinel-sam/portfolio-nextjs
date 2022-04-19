@@ -8,7 +8,7 @@ const NavDropDown = (props) => (
   <DropDownContainer active={props.isOpen}>
     <DropDownItem href="#" target="_blank" rel="noreferrer">
       <DropDownIcon>
-        <AiFillPhone/>
+        <AiFillPhone />
       </DropDownIcon>
       <DropDownTextContainer>
         <DropDownItemTitle>Phone</DropDownItemTitle>
@@ -17,20 +17,20 @@ const NavDropDown = (props) => (
     </DropDownItem>
     <DropDownItem href="#" target="_blank" rel="noreferrer">
       <DropDownIcon>
-      <AiOutlineMail/>
+        <AiOutlineMail />
       </DropDownIcon>
       <DropDownTextContainer>
         <DropDownItemTitle>Email</DropDownItemTitle>
-        <DropDownItemDesc>If you want to talk jus send a message and I'll get back</DropDownItemDesc>
+        <DropDownItemDesc>If you want to talk just send a message and I'll get back</DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
     <DropDownItem href="#" target="_blank" rel="noreferrer">
       <DropDownIcon>
-      <FaLocationArrow/>
+        <FaLocationArrow />
       </DropDownIcon>
       <DropDownTextContainer>
         <DropDownItemTitle>Address</DropDownItemTitle>
-        <DropDownItemDesc>1405, Angelus Dr, Florissant. Mo</DropDownItemDesc>
+        <DropDownItemDesc>Lagos, Nigeria</DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
   </DropDownContainer>
