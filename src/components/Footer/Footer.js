@@ -21,7 +21,9 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Never stop learning, never stop growing</Slogan>
+          <Slogan>This site was built with <br />
+            <strong> NextJS and Styled Components </strong>
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/sentinel-sam">
