@@ -9,8 +9,7 @@ const Hero = () => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hi, <br />
-          I'm Samson<br /> <br />
+          Hi, I'm Samson.<br />
           A MERN stack Developer.
         </SectionTitle>
         <SectionText>
