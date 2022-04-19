@@ -53,6 +53,35 @@ export const SectionTitle = styled.h2`
     max-width: 100%;
   }
 `
+export const SectionSubTitle = styled.h4`
+  font-weight: 400;
+  font-size: ${(props) => props.main ? '61px' : '52px'};
+  line-height: ${(props) => props.main ? '68px' : '52px'};
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: ${(props) => props.main ? '54px 0 12px' : '0'};
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '52px' : '44px'};
+    line-height: ${(props) => props.main ? '52px' : '44px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '36px 0 8px' : '0'};
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 25px;
+    line-height: 36px;
+    font-size: ${(props) => props.main ? '20px' : '25px'};
+    line-height: ${(props) => props.main ? '28px' : '36px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '12px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
 
 export const SectionText = styled.p`
   max-width: 800px;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionSubTitle, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -9,9 +9,11 @@ const Hero = () => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hi, I'm Samson.<br />
-          A MERN stack Developer.
+          Hi, I'm Samson.
         </SectionTitle>
+        <SectionSubTitle>
+          A MERN stack Developer.
+        </SectionSubTitle>
         <SectionText>
           As a fullstack developer, I build beautiful, scalable web applications with Javascript and its frameworks.
           I love coding and I'm interested in building amazing web applications with great User Interface and User Experience...
