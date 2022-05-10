@@ -24,6 +24,7 @@ const Technologies = () => (
             Jest <br />
             JavaScript(ES6) <br />
             EJS <br />
+            Bootstrap <br />
             Styled Components <br />
             TailwindCSS/SaSS <br />
             HTML5/CSS3<br />

@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Desrio',
+    description: "A complex web application that helps teams collaborate, ideate and reduce distractions during work hours.",
+    image: '/images/desrio_landing_page.jpg',
+    tags: ['TypeScript', 'NextJS', 'MongoDB'],
+    source: '',
+    visit: 'https://www.desrio.com/',
+    id: 0,
+  },
+  {
     title: 'SamShare',
     description: "A simple social media photo sharing app, with CRUD functionality, Google Authentication and Sanity.io for content management, hosted on Netlify.",
     image: '/images/samshare.png',
     tags: ['TailwindCSS', 'React', 'Sanity.io'],
     source: 'https://github.com/sentinel-sam/samshare_frontend',
     visit: 'https://samshare.netlify.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'YelpCamp',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['JavaScript', 'NodeJS', 'MongoDB'],
     source: 'https://github.com/sentinel-sam/yelpcamp',
     visit: 'http://calm-headland-65887.herokuapp.com/',
-    id: 0,
+    id: 2,
   },
   {
     title: 'IP Address Tracker',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['JavaScript', 'Leaflet.js'],
     source: 'https://github.com/sentinel-sam/ip-address-tracker-js',
     visit: 'https://sam-ip-address-tracker-js.netlify.app/',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Scientific Calculator',
@@ -33,16 +42,16 @@ export const projects = [
     tags: ['HTML5', 'CSS3', 'JavaScript'],
     source: 'https://github.com/sentinel-sam/js-scientific-calc',
     visit: 'https://samio-js-scientific-calculator.netlify.app/',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Countdown Timer',
-    description: "Select a date, and set up a countdown timer.",
+    description: "A simple web app practise project that counts down to a selected date.",
     image: '/images/countdown.png',
     tags: ['HTML5', 'CSS3', 'JavaScript'],
     source: 'https://github.com/sentinel-sam/countdown-timer',
     visit: 'https://sameo-countdown-timer.netlify.app/',
-    id: 3,
+    id: 5,
   },
   {
     title: 'Cloud9ine',
@@ -51,6 +60,6 @@ export const projects = [
     tags: ['CSS3', 'JavaScript', 'Firebase'],
     source: 'https://github.com/sentinel-sam/weather-app-v2',
     visit: 'https://weather-app-cloud9.web.app/',
-    id: 3,
+    id: 6,
   },
 ];
