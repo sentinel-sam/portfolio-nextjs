@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiNodejsSmall } from 'react-icons/di';
+import { DiFirebase, DiReact, DiNodejsSmall} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -38,12 +38,16 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            NodeJS <br />
-            NPM/NVM <br />
+            NodeJS with NPM/NVM <br />
             ExpressJS Server <br />
-            Github (CI/CD)  <br />
-            Bitbucket <br />
-            Git <br />
+            Git, Github (CI/CD) & Bitbucket <br />
+            Firebase <br />
+            MongdoDB & Mongoose <br />
+            Sequelize <br />
+            MySQL <br />
+            Sanity.io<br />
+            Contentful <br />
+            Cloudinary <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -52,16 +56,16 @@ const Technologies = () => (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>DataBase/CMS</ListTitle>
+          <ListTitle>Microsoft Office 365 & Power Platform </ListTitle>
           <ListParagraph>
-            Firebase <br />
-            MongdoDB <br />
-            Mongoose <br />
-            Sequelize <br />
-            MySQL <br />
-            Sanity.io<br />
-            Contentful <br />
-            Cloudinary <br />
+            Microsoft Power Apps <br />
+            Microsoft Power Automate <br />
+            Microsoft Power BI <br />
+            Microsoft Azure <br />
+            Microsoft Excel <br />
+            Microsoft Access <br />
+            Microsoft Powerpoint <br />
+            Microsoft Power Pages <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
